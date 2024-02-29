@@ -1,0 +1,123 @@
+body{
+    background-image: url("https://i.stack.imgur.com/pMAiU.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    background-color: rgb(99, 99, 99);
+    /* background-color: rgb(21, 52, 70); */
+    color: rgb(228, 228, 228);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(32, 32, 32);
+}
+
+nav > a{
+
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 10;
+    
+
+}
+
+.headingOne{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10;
+}
+
+.image{
+    width: 300;
+    height: 200;
+   
+}
+#homeImage{
+    position: relative;
+    top: 50;
+    left: 100;
+}
+
+.flex{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.currentTab{
+    pointer-events: none;
+    color: purple;
+}
+
+section > p{
+    width: 60%;
+    padding-left: 10%;
+   
+}
+
+.portfolioHead{
+   
+    background-color: rgb(145, 145, 145);
+    padding: 10;
+    width: 150;
+    height: 30;
+    text-align: center;
+    margin-left: 20%;
+   
+}
+
+#projectTwo{
+    padding: 0;
+}
+
+#aboutFooter{
+    color: red;
+    background-color: black;
+    vertical-align: bottom;
+    padding-left: 10;
+    padding-right: 10;
+    margin-top: 100;
+    
+ 
+    
+}
+
+#submitted{
+    position: absolute;
+    top: 40%;
+    
+    width: 100%;
+
+}
+
+
+
+form{
+    background-color: rgb(43, 43, 43);
+}
+form > input{
+    background-color: rgb(209, 209, 209);
+    margin-left: 10%;
+
+}
+form > label{
+    display: block;
+    padding: 10;
+    
+    
+    
+}
+#submit{
+    margin: 10;
+    margin-left: 15;
+}
+
+@media screen {
+    
+}
