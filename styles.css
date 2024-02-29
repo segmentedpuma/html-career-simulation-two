@@ -118,6 +118,24 @@ form > label{
     margin-left: 15;
 }
 
-@media screen {
-    
+@media screen and (max-width: 600px){
+    .image{
+        width: 80%;
+        height: auto;
+        padding-left: 10%;
+    }
+    section > p{
+        width: 90%;
+        padding-left: 10%;
+        padding-right: 10%;
+       
+    }
+    #projectTwo{
+        padding-left: 10%;
+    }
+    #homeImage{
+        position: relative;
+        top: 50;
+        left:0;
+    }
 }
